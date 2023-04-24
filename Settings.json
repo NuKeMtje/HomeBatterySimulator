@@ -1,0 +1,39 @@
+[
+  {
+    "Name" : "Victron 5000 en BYD",  
+    "BatEnergyCapacity": 15.4,
+    "MaxChargingPower": 3.3,
+    "MaxDischargingPower": 3.3,
+    "BatUsable": 0.85,
+    "InputEfficienty": 0.92,
+    "OutputEfficienty": 0.92,
+    "SolarFactor": 2,
+    "ElecUsePricekWh": 0.28,
+    "ElecInjectPricekWh": 0.08
+  },
+  {
+    "Name": "Victron 5000 en 1 SOK bat",
+    "BatEnergyCapacity": 5,
+    "MaxChargingPower": 3.3,
+    "MaxDischargingPower": 3.3,
+    "BatUsable": 0.85,
+    "InputEfficienty": 0.92,
+    "OutputEfficienty": 0.92,
+    "SolarFactor": 2,
+    "ElecUsePricekWh": 0.28,
+    "ElecInjectPricekWh": 0.08
+  },
+  {
+    "Name": "Victron 5000 en 2 SOK bat",
+    "BatEnergyCapacity": 10,
+    "MaxChargingPower": 3.3,
+    "MaxDischargingPower": 3.3,
+    "BatUsable": 0.85,
+    "InputEfficienty": 0.92,
+    "OutputEfficienty": 0.92,
+    "SolarFactor": 2,
+    "ElecUsePricekWh": 0.28,
+    "ElecInjectPricekWh": 0.08
+  }
+]
+

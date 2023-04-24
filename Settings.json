@@ -7,7 +7,7 @@
     "BatUsable": 0.85,
     "InputEfficienty": 0.92,
     "OutputEfficienty": 0.92,
-    "SolarFactor": 2,
+    "SolarFactor": 1,
     "ElecUsePricekWh": 0.28,
     "ElecInjectPricekWh": 0.08
   },
@@ -19,7 +19,7 @@
     "BatUsable": 0.85,
     "InputEfficienty": 0.92,
     "OutputEfficienty": 0.92,
-    "SolarFactor": 2,
+    "SolarFactor": 1,
     "ElecUsePricekWh": 0.28,
     "ElecInjectPricekWh": 0.08
   },
@@ -31,7 +31,7 @@
     "BatUsable": 0.85,
     "InputEfficienty": 0.92,
     "OutputEfficienty": 0.92,
-    "SolarFactor": 2,
+    "SolarFactor": 1,
     "ElecUsePricekWh": 0.28,
     "ElecInjectPricekWh": 0.08
   }

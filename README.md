@@ -36,5 +36,19 @@ Timestamp,Energy
 2022-09-16 10:00:00,0.52
 ```
 ## Settings
+Setting up the configuration is done via variables in a JSON-file. Multiple setups can be supplied, a simulation will be performed for each one of them.
+Please see the supplied example for details, but the key setup values are:
+```
+    "Name" : "Victron 5000 and BYD LVL",   #used in the output en export
+    "BatEnergyCapacity": 15.4,             #in kWh
+    "MaxChargingPower": 3.3,               #in kW
+    "MaxDischargingPower": 3.3,            #in kW
+    "BatUsable": 0.85,                     #factor, defines what range of the usable battery energy you want to use. To lengthen battery life, this can be lowered.
+    "InputEfficienty": 0.92,               #factor, defines the energy input efficiency (there are losses in the inverter, battery, ...)
+    "OutputEfficienty": 0.92,              #factor, defines the energy output efficiency (there are losses in the inverter, battery, ...)
+    "SolarFactor": 2,                      #factor used to see the effect of a bigger or smaller solar input (default should be 1)
+    "ElecUsePricekWh": 0.28,               #currency/kWh for using energy from the grid
+    "ElecInjectPricekWh": 0.08             #currency/kWh for giving energy back to the grid (used in some countries).
+```
 
 ## Output

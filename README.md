@@ -3,7 +3,7 @@ Will try to predict the behavior of a configurable battery and inverter system, 
 The output contains a prediction of the possible profit to be made based on the configured system.
 One setting allows changing the gain of the solar panel input. This can be used to evaluate the effect of extra (or less) panels.
 
-I'm not a programmer so feedback or corrections of my code are welcome.
+I'm not a programmer so feedback on or corrections of my code are welcome.
 
 ## Input data and format
 The needed input data are:

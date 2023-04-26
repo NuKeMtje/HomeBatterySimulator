@@ -4,6 +4,7 @@ The output contains a prediction of the possible profit to be made based on the 
 One setting allows changing the gain of the solar panel input. This can be used to evaluate the effect of extra (or less) panels.
 
 I'm not a programmer so feedback on or corrections of my code are welcome.
+I wrote this program as a tool for myself and decided to share it here later on. So forgive the structures used, corners cut and features missing.
 
 ## Input data and format
 The needed input data are:
@@ -138,3 +139,9 @@ Timestamp,FromGrid,ToGrid,Soc,BatEnergy
 09/16/2022 14:00:00,0,0,0.602322383498854087089381207,7.8844
 ```
 
+## Possible future features (feel free to implement them)
+- Allow for one grid data table (that can be negative to represent 'to grid')
+- Next to solar gain allow for an orientation correction (= time shift) or added installation on a different orientation
+- Allow the import of dynamic tarifs (e.g. the history of last year) and evaluate the cost based on those
+- Allow the import of dynamic tarifs (e.g. the history of last year) and a custom model for charging and discharging to evaluate the model and cost
+- Maybe a GUI with nice graphs

@@ -8,11 +8,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="AllData.csv" />
+    <None Remove="FromGrid.csv" />
     <None Remove="Settings.json" />
+    <None Remove="Solar.csv" />
+    <None Remove="ToGrid.csv" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="AllData.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="FromGrid.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Solar.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ToGrid.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
